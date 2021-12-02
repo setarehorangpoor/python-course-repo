@@ -2,7 +2,7 @@ my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 print(my_list)                                #prints the whole list
 
-print(my_list[0])                             #prints teh first element of the list
+print(my_list[0])                             #prints the first element of the list
 
 
 my_list[5] = str(my_list[5])                  #converts the 6th element of the list to a string type
@@ -18,12 +18,18 @@ print(my_list[0] + my_list[8])                #adds the first and the last value
 
 
 
-#String Function
+#String Functions
+
 x = "A COMPUTER can do some tasks better than a person can."
 
 print(x.swapcase())                            #converts lower case to upper case and vice-versa
+
 print(x.lower())                               #converts the whole string to lower case
+
 print(x.upper())                               # converts the whole string to upper case
+
 print(x.title())                               # converts first letter of each word to upper case
-print(x.find('o'))                             # returns the first address value of the string
+
+print(x.find('o'))                             # returns the first index value of the string
+
 print(x.replace('some', 'many'))               # replace the first string with second string
